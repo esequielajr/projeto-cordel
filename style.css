@@ -1,9 +1,8 @@
 @charset "UTF-8";
 
-@font-face {
-    font-family: 'Digital';
-    src: url(fonts/Digitalt.eot) format('embedded-opentype');
-}
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 * {
     margin: 0px;
@@ -11,44 +10,48 @@
 }
 
 header {
-   padding: 50px;
+    padding: 60px;
     background-color: black;
 
 }
 
 header h1 {
     text-align: center;  
-    font-family: 'Digital', 'Arial';
-    font-size: 70px;
+    font-family: 'Passion One', 'Arial', 'sans-serif';
+    line-height: 80px;
+    font-size: 100px;
     color: white;
     
 }
 
 header p {
-    margin-top: px;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     color: white;
+    margin-top: 10px;
 }
 
 main {
     min-height: 100vh;
 }
 
+main p {
+    font-family: 'Sriracha', 'Arial', 'sans-serif';
+    line-height: 2em;
+}
+
 main article {
-    height: 400px;
+    height: max-content;
     background-color: white;
 }
 
 #twotexts {
-    height: 800px;
+    height: max-content;
 
 }
 
 article p {
     font-size: 30px;
-    line-height: 40px;
-    margin-top: 40px;
     padding: 30px;
 
 }
@@ -72,7 +75,7 @@ article p {
 
 .transparent {
     display: flex;
-    height: 500px;
+    height: 600px;
     color: white;
     font-size: 30px;
     line-height: 40px;
@@ -80,7 +83,7 @@ article p {
 }
 
 .text-block {
-    width: 400px;
+    width: 380px;
     margin-left: 20px;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.4);
@@ -88,7 +91,7 @@ article p {
 
 footer {
     height: 40px;
-    margin-top: 400px;
+    margin-top: px;
     background-color: black;
 }
 
